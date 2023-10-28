@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import logo from '/src/assets/S.png';
 export default function Footer() {
     return (
         <footer className="bg-white border-y">
@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="mb-6 pt-0 md:mb-2">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://guptaeserivces.netlify.app//src\assets\S.png"
+                                src={logo}
                                 className="mr-3 h-72 md:h-60 filter-none"
                                 alt="Logo"
                             />

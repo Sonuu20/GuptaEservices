@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link, NavLink} from 'react-router-dom'
+import logo from '/src/assets/Sg.png';
 
 export default function Header() {
     return (
@@ -8,7 +9,7 @@ export default function Header() {
                 <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
                     <Link to="/" className="flex items-center">
                         <img
-                            src="https://guptaeserivces.netlify.app//src\assets\Sg.png"
+                            src={logo}
                             className="mr-3 mb-0 pb-0 h-16  sm:w-36 w-16 filter-none"
                             alt="Logo"
                         />
